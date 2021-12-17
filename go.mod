@@ -1,4 +1,4 @@
-module effective-bassoon
+module github.com/MaxencePPierre/effective-bassoon
 
 go 1.17
 

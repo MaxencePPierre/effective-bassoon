@@ -12,7 +12,7 @@ const (
 	localhost string = "127.0.0.1"
 	port      string = "4150"
 
-	topic string = "effective_bassoon"
+	Topic string = "effective_bassoon"
 )
 
 type Message struct {
@@ -40,7 +40,7 @@ func main() {
 		log.Fatal().Err(err).Msg("Message marshalling error")
 	}
 
-	err = producer.Publish(topic, payload)
+	err = producer.Publish(Topic, payload)
 	if err != nil {
 		log.Fatal().Err(err).Msg("Publish message error")
 	}

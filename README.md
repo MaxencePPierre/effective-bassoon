@@ -1,5 +1,5 @@
 # effective-bassoon
 
-## Objective
+Physic-guide is a NSQ producer.
 
-I want to try a simple implementation of NSQ in Golang.
+topic: `effective_bassoon`

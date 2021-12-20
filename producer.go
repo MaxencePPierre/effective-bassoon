@@ -22,7 +22,6 @@ func main() {
 	}
 
 	msg := message.New("Message Name", "Message Content")
-
 	payload, err := json.Marshal(msg)
 	if err != nil {
 		log.Fatal().Err(err).Msg("Message marshalling error")
